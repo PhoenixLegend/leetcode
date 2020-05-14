@@ -8,11 +8,12 @@
             "type": "java",
             "name": "CodeLens (Launch) - Solution",
             "request": "launch",
-            "mainClass": "Solution"
+            "mainClass": "Solution",
+            "projectName": "algo_a7cb178d"
         },
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "CodeLens (Launch) - CurrentSolution",
             "request": "launch",
             "mainClass": "${file}"
         }
