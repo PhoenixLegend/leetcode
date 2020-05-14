@@ -24,7 +24,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution_done {
     public static int removeDuplicates(int[] nums) {
         if (nums.length == 0) {
             return 0;
