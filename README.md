@@ -1,2 +1,2 @@
-# Top 50 problems in leetcode
-They might not be the best solution, but mostly understandable.
+# Nothing, but practice
+It started hard, but it becomes smooth, and it turns out good.
