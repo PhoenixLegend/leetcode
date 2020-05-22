@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -62,8 +61,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[][] matri2 = { { 7 }, { 9 }, { 6 } };
-        int[][] matrix2 = { { 7, 8, 9 } };
+        // int[][] matri2 = { { 7 }, { 9 }, { 6 } };
+        // int[][] matrix2 = { { 7, 8, 9 } };
         int[][] matrix = { { 6, 7 }, { 10, 11 } };
         System.out.println(spiralOrder(matrix));
     }
