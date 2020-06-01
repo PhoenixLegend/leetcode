@@ -7,7 +7,7 @@
  * 3.结果b：++retryNum的话，作为参数传递的值还是retryNum先加一之后的值，最后成功退出迭代
  */
 
-public class checkandaputone {
+public class checkandputone {
     public static void main(String[] args) {
         checkandaddone(1);
 

@@ -80,7 +80,6 @@ class LRUCache {
             map.get(key).val = value;
             movetohead(map.get(key));
         } else {
-            int mapsize = map.size();
             if (map.size() < size) {
                 DlinkListNode newNode = new DlinkListNode(key, value);
                 map.put(key, newNode);

@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 /*
  * @lc app=leetcode.cn id=124 lang=java
  *
