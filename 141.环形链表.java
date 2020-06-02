@@ -13,7 +13,7 @@ import java.util.HashSet;
  * == null则直接返回没有环 2.如果遍历一遍发现由next == 之前hash表的数据，返回有环
  * 如果空间复杂度设置为O(1)，则不能申请额外空间。和追及问题一致，只有有环，那么速度快的（一次前进两个节点一定能追上一次一个节点的指针） 快慢指针法
  */
-public class Solution {
+class Solution {
     // 利用追击问题思路完成判别
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
@@ -46,6 +46,7 @@ public class Solution {
             curr = curr.next;
             list.add(curr);
         }
+        return false;
     }
 }
 

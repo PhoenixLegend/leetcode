@@ -46,7 +46,7 @@ class LRUCache {
         System.out.println(a.get(2));
 
         a.put(4, 4);
-        System.out.println(a.get(1));//
+        System.out.println(a.get(1));
         System.out.println(a.get(3));
         System.out.println(a.get(4));
 

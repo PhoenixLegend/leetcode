@@ -29,7 +29,7 @@ import java.util.LinkedList;
  * 
  * ∴ 环的入口 => 二者相遇的位置距离环入口点的距离.next(持续d次) = 起点到环入口点的位置.next(持续d次)
  */
-public class Solution {
+class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
